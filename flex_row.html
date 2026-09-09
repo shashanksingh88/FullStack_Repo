@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+                body{
+                        
+                        display: flex;
+                        justify-content: center
+                }
+                .container{
+                        display: flex;
+                        
+                        flex-direction: column;
+
+                        /* justify-content: space-evenly; */
+                        height: 99vh;
+                        width: 90vw;
+                        align-items: center;
+                        outline: 3px solid black;
+                        border:0
+                }
+                .container div{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: black;
+                        /* margin: 1%; */
+                        color: white;
+                        
+                        /* min-width: 65px; */
+                        /* height: 30%; */
+                        background-color: lightblue;
+                        border-radius: 10px;
+                }
+                #box1{
+                        background-color: lightblue;
+                        /* flex-basis: 150px; */
+                        width:89vw;
+                        flex-grow: 1;
+                }
+                #box2{
+                        background-color: lightgreen;
+                        /* flex-basis: 150px; */
+                        width:89vw;
+                        flex-grow: 8;
+                }
+                #box3{
+                        background-color: lightcoral;
+                        /* flex-basis: 150px; */
+                        width:89vw;
+                        flex-grow: 1;
+                }
+        </style>
+</head>
+<body>
+        <div class="container">
+                <div id="box1"></div>
+                <div id="box2"></div>
+                <div id="box3"></div>
+        </div>
+</body>
+</html>
